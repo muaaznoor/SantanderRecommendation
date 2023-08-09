@@ -6,3 +6,9 @@ Consumer level data contains a plethora of information that provides insight int
 Throughout the series of 4 notebooks, this project seeks to predict whether a customer will open/have a new Securities account by the end of May 2016 (the last month in time series axis if of the dataset). The original data source and base version of this problem was posed by Santander Bank here, where you may also find the data dictionary.
 
 You may find the raw data downloaded as train_ver2.csv.
+
+## Notebook 1 of 4 - Data Cleaning & Wrangling
+
+This notebook achieves the goal of wrangling the initial raw dataset to produce a cleaned dataset for use in subsequent EDA and modeling pipelines. S3 is used as the source/destination for the raw dataset and the processed dataset and spark is utilized to carry out the data wrangling process.
+
+
