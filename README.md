@@ -11,4 +11,8 @@ You may find the raw data downloaded as train_ver2.csv.
 
 This notebook achieves the goal of wrangling the initial raw dataset to produce a cleaned dataset for use in subsequent EDA and modeling pipelines. S3 is used as the source/destination for the raw dataset and the processed dataset and spark is utilized to carry out the data wrangling process.
 
+## Notebook 2 of 4 - Exploratory Data Analysis
+
+This notebook seeks to explore the data first at a high level, followed by deep dives accordingly based on standout patterns or peculiarities revealed by the data. The intention is to provide a firm basis for the intuition behind Feature Engineering, which comes immediately afterwards.
+
 
