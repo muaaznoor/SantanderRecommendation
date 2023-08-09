@@ -8,11 +8,12 @@ Throughout the series of 4 notebooks, this project seeks to predict whether a cu
 You may find the raw data downloaded as train_ver2.csv.
 
 ## Notebook 1 of 4 - Data Cleaning & Wrangling
-
 This notebook achieves the goal of wrangling the initial raw dataset to produce a cleaned dataset for use in subsequent EDA and modeling pipelines. S3 is used as the source/destination for the raw dataset and the processed dataset and spark is utilized to carry out the data wrangling process.
 
 ## Notebook 2 of 4 - Exploratory Data Analysis
-
 This notebook seeks to explore the data first at a high level, followed by deep dives accordingly based on standout patterns or peculiarities revealed by the data. The intention is to provide a firm basis for the intuition behind Feature Engineering, which comes immediately afterwards.
 
+## Notebook 3 of 4 - Feature Engineering and Modeling Part 1 (Unsupervised Learning)
+In this notebook, the wrangled and imputed data is taken and used to create additional features required for modeling. Additionally, some of the existent features are also tweaked according to the modeling needs.
+In the second part of this notebook, unsupervised modeling approaches are tried on the data to see if any useful patterns/findings can be extracted to use as further features in supervised learning.
 
